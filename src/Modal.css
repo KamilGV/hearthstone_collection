@@ -1,0 +1,61 @@
+.ModalContainer{
+    font-family: 'Belwe';
+    /* display: flex; */
+    padding: 25px 50px;
+    background-color: #E6D5A6;
+    /* background-color: transparent; */
+    /* opacity: 10%; */
+    min-width: 840px;
+    /* flex-direction: column; */
+    /* align-items: end; */
+    /* justify-content: end; */
+    background-image: url('./images/main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.95885px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.14147px 1.99499px 0px, rgb(0, 0, 0) -0.83229px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.70157px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.42159px -1.95506px 0px, rgb(0, 0, 0) 0.56732px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.55883px 0px;
+    color: white;
+    
+    
+    
+}
+
+.ModalInfo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.ModalInfoText{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.CloseButton{
+    background-color: black;
+}
+
+.CloseButton:hover{
+    background-color: grey;
+}
+
+.cardName{
+    font-family: 'Belwe';
+    /* url('./fonts/belwe_bold.otf') format('otf') */
+    font-size: 50px;
+}
+
+.image-container{
+    background-image: url("https://d15f34w2p8l1cc.cloudfront.net/hearthstone/885f85d08c3c7c50cff78d167aee2ebb4de326d4ea3345024ff76003f93cf8e0.png"
+    );
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    width: 404px;
+    height: 558px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-size: 300px; */
+}

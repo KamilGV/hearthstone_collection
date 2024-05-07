@@ -1,0 +1,116 @@
+.GridCards{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    /* grid-template-rows: repeat(5,1fr); */
+    gap: 5px;
+    padding: 10px;
+    width: 1545px;
+    height: 700px;
+  }
+
+.GridCardsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.GridCardImgPrev{
+    height: 60px;
+    width: 40px;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.GridCardImgPrev:hover{
+    transform: translate(-5px, 0) scale(1.01);
+    transition: transform 0.3s;
+}
+
+.GridCardImgPrev:active{
+    transform: translate(-5px, 0) scale(0.9);
+    transition: transform 0.01s;
+}
+
+
+.GridCardImgNext{
+    height: 60px;
+    width: 40px;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.GridCardImgNotActive{
+    opacity: 0.2;
+}
+
+
+.GridCardImgNext:hover{
+    transform: translate(5px, 0) scale(1.01);
+    transition: transform 0.3s;
+}
+
+.GridCardImgNext:active{
+    transform: translate(5px, 0) scale(0.9);
+    transition: transform 0.01s;
+}
+
+.GridContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.paginator-container{
+    margin-bottom: 10px;
+}
+
+.abc{
+    font-size: 40px;
+}
+
+.transition-right {
+    animation: fadeinRight 0.5s ease-in-out;
+  }
+
+
+.transition-left {
+    animation: fadeinLeft 0.5s ease-in-out;
+  }
+
+.transition-opacity{
+    animation: fadeinOpacity 0.5s ease-in-out;
+}
+
+  @keyframes fadeinRight {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeinLeft {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeinOpacity {
+    0% {
+      /* transform: translateY(300px); */
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

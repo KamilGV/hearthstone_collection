@@ -1,0 +1,16 @@
+.image-icon{
+    width: 30px;
+    border-radius: 100%;
+    
+}
+
+.ImageContainer{
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #F7F29F, #AD6425);
+    border-radius: 100%;
+
+}

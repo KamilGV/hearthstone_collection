@@ -1,0 +1,31 @@
+.imageGridContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herthstoneCardImg{
+    max-width: 250px;
+    height: auto;
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px white);
+}
+
+.herthstoneCardImg:hover{
+    /* transform: scale(1.1); */
+    /* -webkit-filter: drop-shadow(2px 2px 0 rgb(21, 146, 236))
+                drop-shadow(-2px 2px 0 rgb(21, 146, 236))
+                drop-shadow(2px -2px 0 rgb(21, 146, 236))
+                drop-shadow(-2px -2px 0 rgb(21, 146, 236)); */
+
+    /* filter: drop-shadow(2px 2px 0 rgb(21, 146, 236))
+            drop-shadow(-2px 2px 0 rgb(21, 146, 236))
+            drop-shadow(2px -2px 0 rgb(21, 146, 236))
+            drop-shadow(-2px -2px 0 rgb(21, 146, 236)); */
+    filter: drop-shadow(0 0 10px white);
+}
+
+
+.card-madal{
+    
+}

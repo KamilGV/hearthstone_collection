@@ -3,8 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import checkToken from './network'
+
+
+
+// document.cookie = "user=John";
+
+  // let token = prompt('Введите accessToken');
+  // const result = await checkToken(token)
+  // console.log(result)
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <App />
